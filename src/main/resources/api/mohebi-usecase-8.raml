@@ -1,0 +1,19 @@
+#%RAML 1.0
+title: mohebi-usecase-8
+version: v1
+/fetch-record:
+  post:
+    body:
+      application/json:
+        example: {
+                    "delivery_number": 897211861
+                  }
+    responses:
+      200:
+        body:
+          application/json:
+            example: {
+                        "message": "PDF generated successfully"
+                      }              
+          
+    
