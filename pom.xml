@@ -32,9 +32,13 @@
 						<username>imvaibhav508</username>
 						<password>Smriti@508</password>
 						<applicationName>mohebi-usecaase-8</applicationName>
+						<target>Cloudhub-US-East-2</target>
 						<environment>Sandbox</environment>
 						<replicas>1</replicas>
       					<vCores>1</vCores>
+      					<properties>
+							<key>value</key>
+						</properties>
 					</cloudhub2Deployment>
 					<sharedLibraries>
 						<sharedLibrary>
