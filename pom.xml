@@ -25,7 +25,7 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<cloudHubDeployment>
+					<cloudhub2Deployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.8.1</muleVersion>
 						<username>imvaibhav508</username>
@@ -37,7 +37,7 @@
 						<properties>
 							<key>value</key>
 						</properties>
-					</cloudHubDeployment>
+					</cloudhub2Deployment>
 					<sharedLibraries>
 						<sharedLibrary>
 							<groupId>net.snowflake</groupId>
