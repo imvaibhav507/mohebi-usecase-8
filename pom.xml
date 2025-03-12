@@ -28,15 +28,13 @@
 					<cloudhub2Deployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.8.1</muleVersion>
+						<provider>MC</provider>
 						<username>imvaibhav508</username>
 						<password>Smriti@508</password>
 						<applicationName>mohebi-usecaase-8</applicationName>
 						<environment>Sandbox</environment>
-						<workers>1</workers>
-						<workerType>MICRO</workerType>
-						<properties>
-							<key>value</key>
-						</properties>
+						<replicas>1</replicas>
+      					<vCores>1</vCores>
 					</cloudhub2Deployment>
 					<sharedLibraries>
 						<sharedLibrary>
