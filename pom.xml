@@ -35,10 +35,7 @@
 						<target>Cloudhub-US-East-2</target>
 						<environment>Sandbox</environment>
 						<replicas>1</replicas>
-      					<vCores>1</vCores>
-      					<properties>
-							<key>value</key>
-						</properties>
+      					<vCores>0.1</vCores>
 					</cloudhub2Deployment>
 					<sharedLibraries>
 						<sharedLibrary>
